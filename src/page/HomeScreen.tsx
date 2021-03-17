@@ -7,7 +7,7 @@ import { View, Text, Button } from 'react-native';
     <Text>Home Screen</Text>
     <Button
       title="Go to Details"
-      onPress={() => navigation.navigate('详情')}
+      onPress={() => navigation.navigate('Details')}
     />
   </View>
   );

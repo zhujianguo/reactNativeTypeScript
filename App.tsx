@@ -10,12 +10,34 @@ const Stack = createStackNavigator();
 
 function App() {
   return (
-
-    
     <NavigationContainer>
     <Stack.Navigator initialRouteName="Home">
-      <Stack.Screen name="Home"  options={{ title: '首页' }} component={HomeScreen} />
-      <Stack.Screen name="Details" component={DetailsScreen} />
+      <Stack.Screen
+      name="Home"
+      options={{ 
+        title: '首页',
+        headerStyle: {
+          backgroundColor: '#f4511e',
+        },
+        headerTintColor: '#fff',
+        headerTitleStyle: {
+          fontWeight: 'bold',
+        },
+     }}
+      component={HomeScreen}/>
+      <Stack.Screen
+      name="Details"
+      options={{
+        title: '详情',
+        headerStyle: {
+          backgroundColor: '#f7578797',
+        },
+        headerTintColor: '#fff',
+        headerTitleStyle: {
+          fontWeight: 'bold',
+        },
+      }}
+      component={DetailsScreen}/>
     </Stack.Navigator>
   </NavigationContainer>
   );
