@@ -5,6 +5,10 @@ import { View, Text, Button } from 'react-native';
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
     <Text>Details Screen</Text>
+    <Button
+        onPress={() => navigation.navigate('MyModal')}
+        title="Open Modal"
+      />
   </View>
   );
 }
