@@ -25,14 +25,13 @@ export default class HomeScreen extends React.PureComponent<Props, State> {
 
   render() {
     const {navigation} = this.props;
-    console.log('navigation====', navigation);
     return (
       // eslint-disable-next-line react-native/no-inline-styles
       <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
         <Text>Home Screen</Text>
         <Button
-          title="Go to Details"
-          onPress={() => navigation.navigate('Details')}
+          title="去往新页面"
+          onPress={() => navigation.navigate('Settings')}
         />
       </View>
     );

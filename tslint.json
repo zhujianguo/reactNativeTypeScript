@@ -4,6 +4,25 @@
         "tslint:recommended"
     ],
     "jsRules": {},
-    "rules": {},
+    "rules": {
+        "interface-name": [
+            true,
+            "never-prefix"
+        ],
+        "no-empty-interface": false,
+        "object-literal-sort-keys": false,
+        "no-console": false,
+        "trailing-comma": [
+            false
+        ],
+        "prefer-const": false,
+        "quotemark": [
+            true,
+            "single",
+            "jsx-double"
+        ],
+        "object-literal-sort-keys": false, // 不检查检查对象 key 的声明顺序
+        "ordered-imports": false, // 不检查导入的声明顺序
+    },
     "rulesDirectory": []
 }
