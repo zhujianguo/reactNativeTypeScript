@@ -1,0 +1,6 @@
+module Pods_reactNativeTypeScript_reactNativeTypeScriptTests {
+  umbrella header "Pods-reactNativeTypeScript-reactNativeTypeScriptTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

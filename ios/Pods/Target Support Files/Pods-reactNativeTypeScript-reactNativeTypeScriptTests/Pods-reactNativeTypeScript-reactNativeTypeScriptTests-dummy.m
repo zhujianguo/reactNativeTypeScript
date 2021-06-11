@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_reactNativeTypeScript_reactNativeTypeScriptTests : NSObject
+@end
+@implementation PodsDummy_Pods_reactNativeTypeScript_reactNativeTypeScriptTests
+@end

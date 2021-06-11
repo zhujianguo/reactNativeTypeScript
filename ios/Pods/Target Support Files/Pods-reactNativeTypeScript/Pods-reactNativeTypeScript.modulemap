@@ -1,0 +1,6 @@
+module Pods_reactNativeTypeScript {
+  umbrella header "Pods-reactNativeTypeScript-umbrella.h"
+
+  export *
+  module * { export * }
+}
